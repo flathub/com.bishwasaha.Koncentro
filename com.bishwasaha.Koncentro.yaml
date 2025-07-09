@@ -49,7 +49,11 @@ modules:
         build-commands:
             - python -m compileall .
 
-            - dev/generate-python-rc-files.sh
+            - |
+                for qrc_file in koncentro/src/resources/*.qrc; do
+                    base_name=$(basename "$qrc_file" .qrc)
+                    /lib/libexec/rcc -g python "$qrc_file" -o "koncentro/src/resources/${base_name}_rc.py"
+                done
 
             - desktop-file-edit --set-key="Exec" --set-value="run.sh" "koncentro/installer-scripts/linux/common/koncentro.desktop"
             - desktop-file-edit --set-key="Icon" --set-value="/usr/share/icons/hicolor/512x512/koncentro/koncentro" "koncentro/installer-scripts/linux/common/koncentro.desktop"
