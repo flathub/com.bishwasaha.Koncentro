@@ -12,8 +12,8 @@ sources:
       name: markupsafe
       type: pypi
   - type: file
-    url: https://files.pythonhosted.org/packages/dd/e2/88e425adac5ad887a087c38d04fe2030010572a3e0e627f8a6e8c33eeda8/alembic-1.16.2-py3-none-any.whl
-    sha256: 5f42e9bd0afdbd1d5e3ad856c01754530367debdebf21ed6894e34af52b3bb03
+    url: https://files.pythonhosted.org/packages/e6/68/1dea77887af7304528ea944c355d769a7ccc4599d3a23bd39182486deb42/alembic-1.16.3-py3-none-any.whl
+    sha256: 70a7c7829b792de52d08ca0e3aefaf060687cb8ed6bebfa557e597a1a5e5a481
     x-checker-data:
       name: alembic
       packagetype: bdist_wheel
