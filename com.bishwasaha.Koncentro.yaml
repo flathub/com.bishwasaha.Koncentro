@@ -49,6 +49,8 @@ modules:
         build-commands:
             - python -m compileall .
 
+            - dev/generate-python-rc-files.sh
+
             - desktop-file-edit --set-key="Exec" --set-value="run.sh" "koncentro/installer-scripts/linux/common/koncentro.desktop"
             - desktop-file-edit --set-key="Icon" --set-value="/usr/share/icons/hicolor/512x512/koncentro/koncentro" "koncentro/installer-scripts/linux/common/koncentro.desktop"
             - desktop-file-edit --set-key="Categories" --set-value="Utility;Office;" "koncentro/installer-scripts/linux/common/koncentro.desktop"
