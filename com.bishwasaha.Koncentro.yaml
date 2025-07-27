@@ -79,9 +79,9 @@ modules:
 
         sources:
             -   type: archive
-                url: https://github.com/kun-codes/Koncentro/archive/refs/tags/v0.11.1.tar.gz
+                url: https://github.com/kun-codes/Koncentro/archive/refs/tags/v1.0.0.tar.gz
                 dest: koncentro
-                sha256: ddc3e999adae9fe944705b2f749ac5fcce22a3c4e0b18d8226f659e6ba416ab3
+                sha256: 7a8d2f68d20166a9802f1b76e3e08af51ab7114544d023753b6eadd20c3a5383
             -   type: script
                 commands:
                     - python /app/koncentro/src/__main__.py "$@"
