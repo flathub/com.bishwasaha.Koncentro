@@ -25,8 +25,8 @@ sources:
       name: greenlet
       type: pypi
   - type: file
-    url: https://files.pythonhosted.org/packages/63/66/45b165c595ec89aa7dcc2c1cd222ab269bc753f1fc7a1e68f8481bd957bf/sqlalchemy-2.0.41.tar.gz
-    sha256: edba70118c4be3c2b1f90754d308d0b79c6fe2c0fdc52d8ddf603916f83f4db9
+    url: https://files.pythonhosted.org/packages/5a/03/a0af991e3a43174d6b83fca4fb399745abceddd1171bdabae48ce877ff47/sqlalchemy-2.0.42.tar.gz
+    sha256: 160bedd8a5c28765bd5be4dec2d881e109e33b34922e50a3b881a7681773ac5f
     x-checker-data:
       name: sqlalchemy
       type: pypi
