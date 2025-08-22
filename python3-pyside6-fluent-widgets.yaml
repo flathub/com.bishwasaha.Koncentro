@@ -13,8 +13,8 @@ sources:
       packagetype: bdist_wheel
       type: pypi
   - type: file
-    url: https://files.pythonhosted.org/packages/b9/6f/97ea33bef6c18eae51ceb783c5f008282ef564cdb38963e2e3b14cb11484/pyside6_fluent_widgets-1.8.3-py3-none-any.whl
-    sha256: 5a7d1f97d653d0c3c658a006698a32ff0876f00f14fdda327d3ef5a5f883ec61
+    url: https://files.pythonhosted.org/packages/53/44/19030810581d895f6918711128acdc9c5ecfea1a1ef269932686f3996652/pyside6_fluent_widgets-1.8.7-py3-none-any.whl
+    sha256: 71c9149098a5ab50b5dea1d890d1b0d1b819f246ae478fc01ec451179bb3b569
     x-checker-data:
       name: pyside6_fluent_widgets
       packagetype: bdist_wheel
