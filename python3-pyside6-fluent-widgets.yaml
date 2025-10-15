@@ -13,15 +13,15 @@ sources:
       packagetype: bdist_wheel
       type: pypi
   - type: file
-    url: https://files.pythonhosted.org/packages/58/8e/c04337b8a628e76efbef10a0bd25d64629054f9823be235a74a1abb14c2e/pyside6_fluent_widgets-1.9.0-py3-none-any.whl
-    sha256: 4571b4d3fb4e8d7b6eb3c8fd7978d43def8005f9f2efa037edf9311e5e77b10d
+    url: https://files.pythonhosted.org/packages/72/d5/8326585b83ea7eb0e18eb1e7025fcd853ff63832ef4aec3719c489253e81/pyside6_fluent_widgets-1.9.1-py3-none-any.whl
+    sha256: 9c56ba8fcdcdca2a388cb11871101ba642d085a2717c43b64f935ec23c6b1c69
     x-checker-data:
       name: pyside6_fluent_widgets
       packagetype: bdist_wheel
       type: pypi
   - type: file
-    url: https://files.pythonhosted.org/packages/36/a7/d06588105e8d3ede3e892871fa06d6e0365a7f88e42388f9fdbe61ccb77b/pysidesix_frameless_window-0.7.3-py3-none-any.whl
-    sha256: d39c17140bd0eef32bcf34d8697ab06244295709062db9f0b6b41f946ac5eb99
+    url: https://files.pythonhosted.org/packages/3d/1e/5bfb71bb258d7fe5b6a89197ae1d8b318ea6895ba5e5b2cdabed0956b07d/pysidesix_frameless_window-0.7.4-py3-none-any.whl
+    sha256: 26eca5f28e1e08ff8e619de6b8a8c19aa85fe3c07efc2bf05693015430c7ea68
     x-checker-data:
       name: pysidesix_frameless_window
       packagetype: bdist_wheel
