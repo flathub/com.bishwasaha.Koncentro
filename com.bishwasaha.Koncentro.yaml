@@ -113,8 +113,8 @@ modules:
           url-query: '"https://downloads.mitmproxy.org/\($version)/mitmproxy-\($version)-linux-x86_64.tar.gz"'
 
       - type: file
-        url: https://downloads.mitmproxy.org/12.1.2/mitmproxy-12.1.2-linux-aarch64.tar.gz
-        sha256: c8189eb1fc9585f1733a9cb4a57af75b917ca28bb61dba77136a3b9f556bcaec
+        url: https://downloads.mitmproxy.org/12.2.0/mitmproxy-12.2.0-linux-aarch64.tar.gz
+        sha256: b1cd0f6732cd5f8375ea3017a81854d27c707360774795eeee1e41e1a274bb9d
         dest: mitmproxy
         dest-filename: mitmproxy.tar.gz
         only-arches:
