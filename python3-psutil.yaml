@@ -6,8 +6,8 @@ build-commands:
     --prefix=${FLATPAK_DEST} "psutil" --no-build-isolation
 sources:
   - type: file
-    url: https://files.pythonhosted.org/packages/b3/31/4723d756b59344b643542936e37a31d1d3204bcdc42a7daa8ee9eb06fb50/psutil-7.1.0.tar.gz
-    sha256: 655708b3c069387c8b77b072fc429a57d0e214221d01c0a772df7dfedcb3bcd2
+    url: https://files.pythonhosted.org/packages/cd/ec/7b8e6b9b1d22708138630ef34c53ab2b61032c04f16adfdbb96791c8c70c/psutil-7.1.2.tar.gz
+    sha256: aa225cdde1335ff9684708ee8c72650f6598d5ed2114b9a7c5802030b1785018
     x-checker-data:
       name: psutil
       type: pypi
