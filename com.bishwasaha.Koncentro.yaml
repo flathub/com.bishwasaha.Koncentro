@@ -98,8 +98,8 @@ modules:
 
     sources:
       - type: file
-        url: https://downloads.mitmproxy.org/12.1.2/mitmproxy-12.1.2-linux-x86_64.tar.gz
-        sha256: 18cbf40a616fee8ffd8d756c62ef161627ede0dbe4e1a5f9590cd0b7c3db92f7
+        url: https://downloads.mitmproxy.org/12.2.1/mitmproxy-12.2.1-linux-x86_64.tar.gz
+        sha256: 1fb66664065227615383ba88e2709f8cd2cca91cd8705781450544fa80d7427d
         dest: mitmproxy
         dest-filename: mitmproxy.tar.gz
         only-arches:
@@ -113,8 +113,8 @@ modules:
           url-query: '"https://downloads.mitmproxy.org/\($version)/mitmproxy-\($version)-linux-x86_64.tar.gz"'
 
       - type: file
-        url: https://downloads.mitmproxy.org/12.1.2/mitmproxy-12.1.2-linux-aarch64.tar.gz
-        sha256: c8189eb1fc9585f1733a9cb4a57af75b917ca28bb61dba77136a3b9f556bcaec
+        url: https://downloads.mitmproxy.org/12.2.1/mitmproxy-12.2.1-linux-aarch64.tar.gz
+        sha256: e7084cc0c4dad480830289ffcff30f226d87b97912d046d0004d75f763ef99a7
         dest: mitmproxy
         dest-filename: mitmproxy.tar.gz
         only-arches:
