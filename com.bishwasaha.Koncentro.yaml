@@ -106,6 +106,7 @@ modules:
           - x86_64
         x-checker-data:
           type: json
+          is-main-source: true
           url: https://api.github.com/repos/mitmproxy/mitmproxy/releases/latest
           tag-query: .tag_name
           timestamp-query: .published_at
@@ -121,6 +122,7 @@ modules:
           - aarch64
         x-checker-data:
           type: json
+          is-main-source: true
           url: https://api.github.com/repos/mitmproxy/mitmproxy/releases/latest
           tag-query: .tag_name
           timestamp-query: .published_at
