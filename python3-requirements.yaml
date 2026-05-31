@@ -1,0 +1,167 @@
+# Generated with flatpak-pip-generator -r requirements.txt --yaml --runtime=org.kde.Sdk//6.10 --checker-data
+name: python3-requirements
+buildsystem: simple
+build-commands: []
+modules:
+  - name: python3-certifi
+    buildsystem: simple
+    build-commands:
+      - pip3 install --verbose --exists-action=i --no-index --find-links="file://${PWD}"
+        --prefix=${FLATPAK_DEST} "certifi" --no-build-isolation
+    sources:
+      - type: file
+        url: https://files.pythonhosted.org/packages/59/8c/57e832b7af6d7c5abe66eb3fbe3a3a32f4d11ea23a1aa7131371035be991/certifi-2026.5.20-py3-none-any.whl
+        sha256: 3c52e209ba0a4ad7aebe60436a4ab349c39e1e602e8c134221e546902ad25897
+        x-checker-data:
+          type: pypi
+          name: certifi
+          packagetype: bdist_wheel
+  - name: python3-loguru
+    buildsystem: simple
+    build-commands:
+      - pip3 install --verbose --exists-action=i --no-index --find-links="file://${PWD}"
+        --prefix=${FLATPAK_DEST} "loguru" --no-build-isolation
+    sources:
+      - type: file
+        url: https://files.pythonhosted.org/packages/0c/29/0348de65b8cc732daa3e33e67806420b2ae89bdce2b04af740289c5c6c8c/loguru-0.7.3-py3-none-any.whl
+        sha256: 31a33c10c8e1e10422bfd431aeb5d351c7cf7fa671e3c4df004162264b28220c
+        x-checker-data:
+          type: pypi
+          name: loguru
+          packagetype: bdist_wheel
+  - name: python3-psutil
+    buildsystem: simple
+    build-commands:
+      - pip3 install --verbose --exists-action=i --no-index --find-links="file://${PWD}"
+        --prefix=${FLATPAK_DEST} "psutil" --no-build-isolation
+    sources:
+      - type: file
+        url: https://files.pythonhosted.org/packages/aa/c6/d1ddf4abb55e93cebc4f2ed8b5d6dbad109ecb8d63748dd2b20ab5e57ebe/psutil-7.2.2.tar.gz
+        sha256: 0746f5f8d406af344fd547f1c8daa5f5c33dbc293bb8d6a16d80b4bb88f59372
+        x-checker-data:
+          type: pypi
+          name: psutil
+  - name: python3-PySide6-Fluent-Widgets
+    buildsystem: simple
+    build-commands:
+      - pip3 install --verbose --exists-action=i --no-index --find-links="file://${PWD}"
+        --prefix=${FLATPAK_DEST} "PySide6-Fluent-Widgets" --no-build-isolation
+    sources:
+      - type: file
+        url: https://files.pythonhosted.org/packages/f2/f2/728f041460f1b9739b85ee23b45fa5a505962ea11fd85bdbe2a02b021373/darkdetect-0.8.0-py3-none-any.whl
+        sha256: a7509ccf517eaad92b31c214f593dbcf138ea8a43b2935406bbd565e15527a85
+        x-checker-data:
+          type: pypi
+          name: darkdetect
+          packagetype: bdist_wheel
+      - type: file
+        url: https://files.pythonhosted.org/packages/78/cb/ad62113621b3e619e4fa069a383e5060a6169e93a9df73f15f2cf68bdf5a/pyside6_fluent_widgets-1.11.2-py3-none-any.whl
+        sha256: 7d3bb3d79b743cbb16eef0a0471f1d0c47d6c8c8dd78402820bd3cdae4da1ea0
+        x-checker-data:
+          type: pypi
+          name: pyside6-fluent-widgets
+          packagetype: bdist_wheel
+      - type: file
+        url: https://files.pythonhosted.org/packages/60/02/13dc76880e9f54102b8d4859a1a14061c6914c12d8c8554dc49ef55ab209/pysidesix_frameless_window-0.8.1-py3-none-any.whl
+        sha256: 0445e7ce095c3631893ec54edb470a47c2bb05ea64db736f446211550b7c2237
+        x-checker-data:
+          type: pypi
+          name: pysidesix-frameless-window
+          packagetype: bdist_wheel
+  - name: python3-semver
+    buildsystem: simple
+    build-commands:
+      - pip3 install --verbose --exists-action=i --no-index --find-links="file://${PWD}"
+        --prefix=${FLATPAK_DEST} "semver" --no-build-isolation
+    sources:
+      - type: file
+        url: https://files.pythonhosted.org/packages/a6/24/4d91e05817e92e3a61c8a21e08fd0f390f5301f1c448b137c57c4bc6e543/semver-3.0.4-py3-none-any.whl
+        sha256: 9c824d87ba7f7ab4a1890799cec8596f15c1241cb473404ea1cb0c55e4b04746
+        x-checker-data:
+          type: pypi
+          name: semver
+          packagetype: bdist_wheel
+  - name: python3-sqlalchemy
+    buildsystem: simple
+    build-commands:
+      - pip3 install --verbose --exists-action=i --no-index --find-links="file://${PWD}"
+        --prefix=${FLATPAK_DEST} "sqlalchemy" --no-build-isolation
+    sources:
+      - &id001
+        type: file
+        url: https://files.pythonhosted.org/packages/6d/6e/802acd792aebb2256fbbee8cacf2727faaeb6f240ac11008f09eae4414bc/greenlet-3.5.1.tar.gz
+        sha256: 5a56aeb7d5d9cc4b3a735efb5095bd4b4f6f0e4f93e5ca876d0e2315137b7829
+        x-checker-data:
+          type: pypi
+          name: greenlet
+      - &id002
+        type: file
+        url: https://files.pythonhosted.org/packages/d0/10/f7220e9b784d295d241c86ed99aeb537f92afcd469a64861f2717e9bb077/sqlalchemy-2.0.50-py3-none-any.whl
+        sha256: 92064363517a3ff8212b5a93b8c62876579d8dfd1ca5b561335f30152d884fa9
+        x-checker-data:
+          type: pypi
+          name: sqlalchemy
+          packagetype: bdist_wheel
+      - &id003
+        type: file
+        url: https://files.pythonhosted.org/packages/18/67/36e9267722cc04a6b9f15c7f3441c2363321a3ea07da7ae0c0707beb2a9c/typing_extensions-4.15.0-py3-none-any.whl
+        sha256: f0fa19c6845758ab08074a0cfa8b7aecb71c999ca73d62883bc25cc018c4e548
+        x-checker-data:
+          type: pypi
+          name: typing-extensions
+          packagetype: bdist_wheel
+  - name: python3-uniproxy
+    buildsystem: simple
+    build-commands:
+      - pip3 install --verbose --exists-action=i --no-index --find-links="file://${PWD}"
+        --prefix=${FLATPAK_DEST} "uniproxy" --no-build-isolation
+    sources:
+      - type: file
+        url: https://files.pythonhosted.org/packages/65/e9/f95deea47b763b37c5a76cca2a6ceda7fa9e4ebb98eaa7e8acaa9eeb20ee/uniproxy-1.5.0-py3-none-any.whl
+        sha256: a139dee4ee21c7936f4fbf4d6851c931ff2ff7d245306ab7614732b202db5bc9
+        x-checker-data:
+          type: pypi
+          name: uniproxy
+          packagetype: bdist_wheel
+      - type: file
+        url: https://files.pythonhosted.org/packages/dd/54/3516c1cf349060fc3578686d271eba242f10ec00b4530c2985af9faac49b/xdg-6.0.0-py3-none-any.whl
+        sha256: df3510755b4395157fc04fc3b02467c777f3b3ca383257397f09ab0d4c16f936
+        x-checker-data:
+          type: pypi
+          name: xdg
+          packagetype: bdist_wheel
+  - name: python3-validators
+    buildsystem: simple
+    build-commands:
+      - pip3 install --verbose --exists-action=i --no-index --find-links="file://${PWD}"
+        --prefix=${FLATPAK_DEST} "validators" --no-build-isolation
+    sources:
+      - type: file
+        url: https://files.pythonhosted.org/packages/fa/6e/3e955517e22cbdd565f2f8b2e73d52528b14b8bcfdb04f62466b071de847/validators-0.35.0-py3-none-any.whl
+        sha256: e8c947097eae7892cb3d26868d637f79f47b4a0554bc6b80065dfe5aac3705dd
+        x-checker-data:
+          type: pypi
+          name: validators
+          packagetype: bdist_wheel
+  - name: python3-alembic
+    buildsystem: simple
+    build-commands:
+      - pip3 install --verbose --exists-action=i --no-index --find-links="file://${PWD}"
+        --prefix=${FLATPAK_DEST} "alembic" --no-build-isolation
+    sources:
+      - type: file
+        url: https://files.pythonhosted.org/packages/d2/29/6533c317b74f707ea28f8d633734dbda2119bbadfc61b2f3640ba835d0f7/alembic-1.18.4-py3-none-any.whl
+        sha256: a5ed4adcf6d8a4cb575f3d759f071b03cd6e5c7618eb796cb52497be25bfe19a
+        x-checker-data:
+          type: pypi
+          name: alembic
+          packagetype: bdist_wheel
+      - *id001
+      - type: file
+        url: https://files.pythonhosted.org/packages/7e/99/7690b6d4034fffd95959cbe0c02de8deb3098cc577c67bb6a24fe5d7caa7/markupsafe-3.0.3.tar.gz
+        sha256: 722695808f4b6457b320fdc131280796bdceb04ab50fe1795cd540799ebe1698
+        x-checker-data:
+          type: pypi
+          name: markupsafe
+      - *id002
+      - *id003

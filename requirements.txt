@@ -1,0 +1,9 @@
+certifi
+loguru
+psutil
+PySide6-Fluent-Widgets
+semver
+sqlalchemy
+uniproxy
+validators
+alembic
