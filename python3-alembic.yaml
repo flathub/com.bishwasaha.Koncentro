@@ -12,21 +12,21 @@ sources:
       name: markupsafe
       type: pypi
   - type: file
-    url: https://files.pythonhosted.org/packages/39/4a/4c61d4c84cfd9befb6fa08a702535b27b21fff08c946bc2f6139decbf7f7/alembic-1.16.5-py3-none-any.whl
-    sha256: e845dfe090c5ffa7b92593ae6687c5cb1a101e91fa53868497dbd79847f9dbe3
+    url: https://files.pythonhosted.org/packages/d2/29/6533c317b74f707ea28f8d633734dbda2119bbadfc61b2f3640ba835d0f7/alembic-1.18.4-py3-none-any.whl
+    sha256: a5ed4adcf6d8a4cb575f3d759f071b03cd6e5c7618eb796cb52497be25bfe19a
     x-checker-data:
       name: alembic
       packagetype: bdist_wheel
       type: pypi
   - type: file
-    url: https://files.pythonhosted.org/packages/03/b8/704d753a5a45507a7aab61f18db9509302ed3d0a27ac7e0359ec2905b1a6/greenlet-3.2.4.tar.gz
-    sha256: 0dca0d95ff849f9a364385f36ab49f50065d76964944638be9691e1832e9f86d
+    url: https://files.pythonhosted.org/packages/6d/6e/802acd792aebb2256fbbee8cacf2727faaeb6f240ac11008f09eae4414bc/greenlet-3.5.1.tar.gz
+    sha256: 5a56aeb7d5d9cc4b3a735efb5095bd4b4f6f0e4f93e5ca876d0e2315137b7829
     x-checker-data:
       name: greenlet
       type: pypi
   - type: file
-    url: https://files.pythonhosted.org/packages/d7/bc/d59b5d97d27229b0e009bd9098cd81af71c2fa5549c580a0a67b9bed0496/sqlalchemy-2.0.43.tar.gz
-    sha256: 788bfcef6787a7764169cfe9859fe425bf44559619e1d9f56f5bddf2ebf6f417
+    url: https://files.pythonhosted.org/packages/02/f1/a7a892f18d4d224e6b26f706531eafccc41e37594d37d304786969ee13cb/sqlalchemy-2.0.51.tar.gz
+    sha256: 804dccd8a4a6242c4e30ad961e540e18a588f6527202f2d6791b01845d59fdc9
     x-checker-data:
       name: sqlalchemy
       type: pypi
